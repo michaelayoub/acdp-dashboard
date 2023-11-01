@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CharacterCard from '$lib/components/CharacterCard.svelte';
+	import CharacterCard from '$lib/components/CharacterCardTabbed.svelte';
 import type { Character } from '$lib/model/Character';
 	import { source } from 'sveltekit-sse';
 

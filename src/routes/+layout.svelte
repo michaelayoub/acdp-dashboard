@@ -14,7 +14,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">AC Data Platform Dashboard</strong>
+				<a href="/"><strong class="text-xl uppercase">AC Data Platform Dashboard</strong></a>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
