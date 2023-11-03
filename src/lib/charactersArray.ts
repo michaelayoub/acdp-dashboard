@@ -1,6 +1,6 @@
-import type { Attribute } from "./model/Attribute";
-import type { Character } from "./model/Character";
-import type { Skill } from "./model/Skill";
+import type { Attribute } from "../../_old/Attribute";
+import type { Character } from "../../_old/Character";
+import type { Skill } from "../../_old/Skill";
 
 function getRandomInt(max: number) {
     return Math.ceil(Math.random() * max);

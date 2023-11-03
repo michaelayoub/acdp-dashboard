@@ -26,6 +26,7 @@
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte": "^2.30.0",
+    "ksqlient": "^1.0.1",
     "postcss": "8.4.31",
     "prettier": "^2.8.0",
     "prettier-plugin-svelte": "^2.10.1",
@@ -41,6 +42,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@floating-ui/dom": "1.5.3"
+    "@floating-ui/dom": "1.5.3",
+    "ksqldb-client": "^1.0.5"
   }
 }
