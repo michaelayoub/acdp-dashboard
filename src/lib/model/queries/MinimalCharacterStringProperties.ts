@@ -7,6 +7,8 @@ const textDecoder = new TextDecoder();
 
 export const QUERY = "select s.object_id AS object_id, s.property_name AS property_name, s.value AS value, c.name AS character_name, c.is_deleted AS is_deleted FROM shard_biota_properties_string_table s join shard_character_table c on s.object_id = c.object_id emit changes;";
 
+export const QUERY_PARAM = "select s.object_id AS object_id, s.property_name AS property_name, s.value AS value, c.name AS character_name, c.is_deleted AS is_deleted FROM shard_biota_properties_string_table s join shard_character_table c on s.object_id = c.object_id where c.object_id = ${objectId} emit changes;"
+
 export type MinimalCharacterStringProperties = {
     objectId: number;
     propertyName: string;
